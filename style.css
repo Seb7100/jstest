@@ -1,0 +1,154 @@
+html{
+scroll-behavior: smooth;
+height: 100%;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    
+}
+#overlay {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.418);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  margin-top: -150px;
+}
+#baggrundsfilm {
+  margin-top: -150px;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+.header-box {
+    z-index: 99999;
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    height: 10%; 
+    background: rgba(34, 31, 31, 0.24);
+}
+
+.logo {
+    z-index: 9999;
+    width:30%; 
+    padding: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+  }
+
+  .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#modalcontent {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .navn {
+    width: 70%; 
+    height: 100%;
+  }
+
+  .logo img {
+    width: auto; 
+    height: 30px;
+  }
+
+  .flex-column1 {
+    z-index: 2;
+      width: 50%;
+      background: rgba(105, 105, 105, 0.342);
+      height: 500px;
+      margin: auto;
+      display: flex;
+      margin-top: 45px;
+      
+  }
+
+  .flex-column2 {
+    z-index: 2;
+    width: 100%;
+    background: rgba(105, 105, 105, 0.342);
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+}
+
+  .flex-box {
+    z-index: 3;
+      width: 50%;
+      background: white;
+      margin: 10px;
+      display: flex;
+  }
+
+  .flex-box1, .flex-box2 {
+    z-index: 4;
+    width: 50%;
+    background: white;
+    margin: 10px;
+    display: flex;
+}
+
+  #flex-box2, #flex-box3, #flex-box4, #flex-box5, #flex-box6, #flex-box7 {
+    background: white;
+    z-index: 9;
+    margin: auto;
+    display: flex;
+    padding: 20px 25px;
+    text-align: center;
+    border: 1px solid;
+
+}
+
+#place_c2f_here {
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid;
+      max-width: 100%;
+  }
+
