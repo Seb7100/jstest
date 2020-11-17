@@ -3,10 +3,16 @@ let udregning = [22, 80, 50, 70];
 const die = function () {
     var i = + 200 - 100 + 300; 
     return udregning [3] + i;
+};
+
+
+
+let time = function () {
+    var hours = new Date();
+    var times = hours.getUTCDate();
 }
-document.getElementById('flex-box8').innerHTML = die();
 
-
+document.getElementById('flex-box8').innerHTML = time();
 
 //From Celcius to Fahrenheit
 
